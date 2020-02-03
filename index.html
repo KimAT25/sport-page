@@ -5,21 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Favorite Sport Page</title>
+
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <h1>Sebastien Loeb</h1>
-    <div>The best <span>rally pilot</span>in the world</div>
-    <div>
+    <header>
+      <h1>Sebastien Loeb</h1>
+      <p>The best <span>rally pilot</span>in the world</p>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>History</li>
-          <li>Result</li>
-          <li>Contact</li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="/biography.html">Biography</a></li>
+          <li><a href="#result">Result</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropdown-links">Links</a>
+            <div class="dropdown-content">
+              <a href="https://www.sebastienloeb.com/en/paddock/"
+                >Sebastian cars</a
+              >
+              <a href="https://www.sebastienloeb.com/en/data-room/"
+                >Data room</a
+              >
+            </div>
+          </li>
+          <li><a href="#contact-links">Contact Links</a></li>
         </ul>
       </nav>
+    </header>
+    <h2 id="home">Home</h2>
+    <div>
+      <div class="banner"></div>
+      <p>
+        Sebastian Loeb is a Nine world champion in differet rally championships.
+      </p>
     </div>
-    <h2>Home</h2>
+    <h2 id="result">Result</h2>
     <div>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem,
@@ -28,23 +48,20 @@
         ipsam impedit doloremque.
       </p>
     </div>
-    <h2>Result</h2>
+    <h2 id="contact-links">Contact Links</h2>
     <div>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem,
-        accusantium. Mollitia adipisci aspernatur dignissimos, nulla soluta,
-        quaerat sint distinctio maxime ut pariatur veniam officia rem nihil eos
-        ipsam impedit doloremque.
+        Your can find your favorite Rally Pilot Sebastian Loeb by these links:
       </p>
+      <a href="https://www.facebook.com/SebLoebOfficiel/"
+        ><img src="img/facebook.png" alt="facebook"
+      /></a>
+      <a href="https://www.instagram.com/sebloebofficiel/"
+        ><img src="img/instagram.png" alt="instagram"
+      /></a>
     </div>
-    <h2>Contact</h2>
-    <div>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem,
-        accusantium. Mollitia adipisci aspernatur dignissimos, nulla soluta,
-        quaerat sint distinctio maxime ut pariatur veniam officia rem nihil eos
-        ipsam impedit doloremque.
-      </p>
-    </div>
+    <footer>
+      <p>© 2019 - <span>made by KimAT</span></p>
+    </footer>
   </body>
 </html>
