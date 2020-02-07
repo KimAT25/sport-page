@@ -23,3 +23,48 @@ footer {
   margin: 0;
   padding: 0;
 }
+
+h1,
+h2 {
+  margin: 10px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+header nav .back {
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+header nav .back .back-btn {
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+}
+header nav .back .back-btn:hover {
+  background-color: #4b4b4b;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+p {
+  padding: 20px 10px 20px 0;
+  text-align: justify;
+}
+.animation {
+  position: relative;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes example {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 400px;
+  }
+}

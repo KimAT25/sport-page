@@ -84,12 +84,85 @@ header .text-logo-slogan {
   margin: 10px;
   padding: 0 0 20px 20px;
 }
-h2 {
+body h2 {
   text-transform: uppercase;
-  padding: 50px 50px 0 10px;
+  padding: 50px 50px 25px 10px;
 }
-.banner {
+body .banner {
   background-image: url(../img/banner.jpg);
   width: 100%;
-  height: 450px;
+  height: 500px;
+}
+body .titles {
+  background-color: black;
+  color: white;
+  font-size: 1.15rem;
+  padding: 25px 15px 25px 15px;
+}
+body .titles .title-text {
+  text-transform: uppercase;
+  font-weight: 750;
+}
+body .titles .title-list {
+  margin: 5px;
+  padding: 15px;
+  list-style-type: circle;
+}
+body .titles .title-list .title-text-decor {
+  font-weight: 750;
+  font-style: italic;
+}
+body .titles .other-title {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .result-text {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 15px;
+}
+body .result-link {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  padding: 20px;
+}
+body .result-link .result-btn {
+  background-color: rgb(22, 15, 92);
+  padding: 10px;
+  border-radius: 15px;
+  border: transparent;
+}
+body .result-link .result-btn .result-btn-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+body .result-link .result-btn:hover {
+  background-color: rgb(21, 129, 69);
+  transition: all 0.4s;
+  cursor: pointer;
+}
+body .contact-text {
+  font-size: 1.15rem;
+  margin: 15px;
+}
+body .links {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+body footer .bottom-strip {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+body footer .bottom-strip .bottom-strip-text {
+  color: red;
+  font-weight: 600;
+  font-style: italic;
 }
