@@ -6,35 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Favorite Sport Page</title>
 
+    <link
+      href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <header>
-      <h1>Sebastien Loeb</h1>
-      <p>The best <span>rally pilot</span>in the world</p>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="/biography.html">Biography</a></li>
-          <li><a href="#result">Result</a></li>
-          <li class="dropdown">
-            <a href="javascript:void(0)" class="dropdown-links">Links</a>
-            <div class="dropdown-content">
-              <a href="https://www.sebastienloeb.com/en/paddock/"
-                >Sebastian cars</a
-              >
-              <a href="https://www.sebastienloeb.com/en/data-room/"
-                >Data room</a
-              >
-            </div>
-          </li>
-          <li><a href="#contact-links">Contact Links</a></li>
-        </ul>
-      </nav>
+      <div class="logo">
+        <img class="logo-picture" src="/img/Logo.jpg" alt="Logo" />
+        <nav>
+          <ul class="menu">
+            <li><a class="menu-btn" href="#home">Home</a></li>
+            <li><a class="menu-btn" href="/biography.html">Biography</a></li>
+            <li><a class="menu-btn" href="#result">Result</a></li>
+            <li class="dropdown">
+              <a class="menu-btn" href="javascript:void(0)">Links</a>
+              <div class="dropdown-content">
+                <a
+                  class="menu-btn-dropdown"
+                  href="https://www.sebastienloeb.com/en/paddock/"
+                  >Sebastian cars</a
+                >
+                <a
+                  class="menu-btn-dropdown"
+                  href="https://www.sebastienloeb.com/en/data-room/"
+                  >Data room</a
+                >
+              </div>
+            </li>
+            <li><a class="menu-btn" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="banner">
+        <h1 class="text-logo">Sebastien Loeb</h1>
+        <div>
+          <p class="text-logo-slogan">
+            The best <span>rally pilot </span>in the world
+          </p>
+        </div>
+      </div>
     </header>
     <h2 id="home">Home</h2>
     <div>
-      <div class="banner"></div>
       <p>
         Sebastian Loeb is a Nine world champion in differet rally championships.
       </p>
@@ -48,7 +64,7 @@
         ipsam impedit doloremque.
       </p>
     </div>
-    <h2 id="contact-links">Contact Links</h2>
+    <h2 id="contact">Contact Links</h2>
     <div>
       <p>
         Your can find your favorite Rally Pilot Sebastian Loeb by these links:
